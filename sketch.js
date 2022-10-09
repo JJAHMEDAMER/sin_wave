@@ -8,8 +8,12 @@ function setup() {
 }
 
 function draw() {
+  while (t <= 400){
     point(x(t), y(t) +200);
     t++;
+  }
+  noLoop()
+  save()
 }
 
 
